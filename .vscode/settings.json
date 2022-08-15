@@ -1,0 +1,4 @@
+{
+    "php.validate.executablePath": "payment.php",
+    "php.validate.run": "onType"
+}
