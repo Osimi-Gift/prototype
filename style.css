@@ -10,7 +10,34 @@ body{
    background-color: rgb(148, 75, 22);
      
 }
-
+.move{
+    position: fixed;
+    top:0;
+background-color: skyblue;
+color: skyblue;
+right: 0;
+border: none;
+}
+nav{
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:skyblue;
+    position: fixed;
+    top: 0px;
+}
+  .anchor{
+    color: skyblue;
+    border-bottom: none;
+  }
+  .anchor:hover{
+    background-color: saddlebrown;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  } 
 .container2{
     width: 50%;
     display: flex;
@@ -34,15 +61,8 @@ body{
     margin-top: 20%;
     color: skyblue;
 }
-nav{
-    padding: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color:skyblue;
-    position: fixed;
-    top: 0px;
-}
+
+
 .container{
     width: 80%;
     display: flex;
@@ -118,7 +138,7 @@ label{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
 #home{
     border: 3px solid saddlebrown ;
@@ -157,8 +177,22 @@ a{
        
       
     }
+    .move{
+        position: fixed;
+        top:0;
+        padding:2% ;
+        border-radius: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    border: none;
+    }
+    nav{
+        position: fixed;
+        left: -100%;
+    }
     #nav-image{
-        width: 10%;
+        width: 20%;
         border-radius:5px ;
         position: fixed;
         left: 0;
@@ -166,7 +200,7 @@ a{
         height: 5%;
     }
 }
-@media (min-width:375){
+@media (min-width:375px){
     .container2{
         width: 50%;
         display: flex;
@@ -188,17 +222,23 @@ a{
        
       
     }
-    nav{
-        width: 100%;
-    }
+  
+    
     #nav-image{
-        width: 5%;
+        width: 10%;
         border-radius:5px ;
         position: fixed;
         left: 0;
         top: 0;
-        height: 12%;
+        height: 5%;
     }
+}
+.reach{
+    display: flex;
+    justify-content: space-around;
+    margin:auto ;
+    margin-top: 10%;
+    border-top: 2px solid white;
 }
 
 
